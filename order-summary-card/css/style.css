@@ -1,0 +1,163 @@
+/* =========|| Normal Defines ||========= */
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family:"RedHatDisplay",sans-serif,Arial, Helvetica;
+    line-height: 1;
+    background:url("../images/pattern-background-desktop.svg") 0 0/100% 435px no-repeat;
+    color:#0c0c0c;
+    overflow-x: hidden;
+}
+/* =========|| Normal Defines ||========= */
+
+/* =========|| Font Defines ||========= */
+@font-face{
+    font-family: "RedHatDisplay";
+    src: url("../fonts/RedHatDisplay-Medium.ttf") format("truetype");
+}
+@font-face{
+    font-family: "RedHatDisplay-Bold";
+    src: url("../fonts/RedHatDisplay-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "RedHatDisplay-Bolder";
+    src: url("../fonts/RedHatDisplay-Black.ttf");
+}
+/* =========|| Font Defines ||========= */
+
+/* =========|| Color Defines ||========= */
+.body-bg-color{
+    background-color:#e0e8ff;
+}
+.card-bg-color{
+    background-color:  #f5f7ff;
+}
+.card-cta-bg-color{
+    background-color:#3829e0;
+}
+.card-link-color{
+    color: #3829e0;
+}
+.card-title-color{
+    color: #1f2f56;
+}
+.card-text-color{
+    color:#7280a7;
+}
+/* =========|| Color Defines ||========= */
+
+/* =========|| Main Styles ||========= */
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.card{
+    width: 440px;
+    border-radius: 20px;
+    box-shadow:0 1px 50px  rgba(56, 41, 224, 0.192);
+}
+.card__thumbnail-img{
+    border-radius:20px 20px 0 0;
+    width: 100%;
+}
+.card__info{
+    text-align: center;
+    padding:2.5rem;
+}
+.card__title{
+    font-size:1.85rem;
+    font-family: "RedHatDisplay-Bolder",sans-serif,Arial, Helvetica;
+    margin-bottom:1.2rem;
+}
+.card__text p{
+    line-height:25px;
+}
+.card__orders{
+    margin:16px 0;
+}
+.card__order{
+    background-color:rgba(224, 232, 255, 0.185);
+    padding:1.2rem 0.8rem;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom:16px;
+}
+.card__order-info{
+    margin-left:1rem;
+}
+.card__order-title{
+    margin-bottom:10px;
+    font-family:"RedHatDisplay-Bolder",sans-serif,Arial, Helvetica;
+}
+.card__order-change{
+    margin-left: auto;
+    font-family:"RedHatDisplay-Bold",sans-serif,Arial, Helvetica;
+}
+.card__order-change-link{
+    text-decoration: underline;
+    text-decoration-color: #3829e0;
+    text-decoration-thickness:2px;
+}
+.card__order-change-link:hover{
+    color:rgba(56, 41, 224, 0.705);
+    text-decoration: none;
+}
+.card__cta{
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    position: relative;
+    box-shadow:0 10px 20px rgba(56, 41, 224, 0.320);
+    transition:background-color .2s ease;
+}
+.card__cta:hover{
+    background-color: rgba(56, 41, 224, 0.705);
+    transition:background-color .3s ease;
+}
+.card__cta-link{
+    color: #f5f7ff;
+    font-family: "RedHatDisplay-Bold",sans-serif,Arial, Helvetica;
+    display:inline-block;
+    padding:1rem 3rem;
+}
+.card__cancel{
+    font-family:"RedHatDisplay-Bold",sans-serif,Arial, Helvetica;
+}
+.card__cancel-link{
+    transition:color .2s ease;
+}
+.card__cancel-link:hover{
+    color:#1f2f56;
+    transition: color .3s ease;
+}
+/* =========|| Main Styles ||========= */
+
+/* =========|| Media Queries ||========= */
+@media only screen and (max-width:768px){
+    .wrapper{
+        padding:1.5rem;
+    }
+}
+@media only screen and (max-width:568px){
+    body{
+        background:url("../images/pattern-background-mobile.svg") 0 0/cover no-repeat;
+    }
+    .card{
+        border-radius: 20px;
+    }
+    .card__thumbnail-img{
+        border-radius:20px 20px 0 0;
+    }
+    .card__info{
+        padding: 1.8rem;
+    }
+}
+/* =========|| Media Queries ||========= */

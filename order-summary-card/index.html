@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Order summary card</title>
+  <!-- =========|| Style Sheets ||=========-->
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <!-- =========|| Style Sheets ||=========-->
+
+  <!-- =========|| Internal Style Sheets ||=========-->
+  <style>
+    .attribution{
+      position: absolute;
+      bottom: 10px;
+      text-align: center;
+      width: 100%;
+    }
+  </style>
+  <!-- =========|| Internal Style Sheets ||=========-->
+
+</head>
+
+<body class="body-bg-color">
+  <article class="wrapper">
+    <div class="card card-bg-color">
+      <section class="card__thumbnail">
+        <img class="card__thumbnail-img" src="images/illustration-hero.svg" alt="card image">
+      </section>
+      <section class="card__info">
+        <div class="card__title">
+          <h1 class="card-title-color">Order Summary</h1>
+        </div>
+        <div class="card__text">
+          <p class="card-text-color">
+            You can now listen to millions of songs,
+            audiobooks, and podcasts on any device
+            anywhere you like!
+          </p>
+        </div>
+        <div class="card__orders">
+          <div class="card__order">
+            <div class="card__order-icon">
+              <img src="images/icon-music.svg" alt="your order icon/image">
+            </div>
+            <div class="card__order-info">
+              <h3 class="card__order-title card-title-color">Annual Plan</h3>
+              <p class="card__order-price card-text-color">$59.99/year</p>
+            </div>
+            <div class="card__order-change">
+              <a class="card__order-change-link card-link-color" href="#">Change</a>
+            </div>
+          </div>
+        </div>
+        <div class="card__cta card-cta-bg-color">
+          <a class="card__cta-link" href="#">Proceed to Payment</a>
+        </div>
+        <div class="card__cancel">
+          <a class="card__cancel-link card-text-color" href="#">Cancel Order</a>
+        </div>
+      </section>
+    </div>
+  </article>
+</body>
+
+</html>
