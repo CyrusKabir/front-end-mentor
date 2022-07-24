@@ -1,0 +1,16 @@
+@use "./mixins" as *;
+$basePath: "../../assets/fonts";
+
+@include define-font(
+    "OutfitRegular",
+    "#{$basePath}/Outfit-Regular.ttf",
+    normal,
+    normal
+);
+
+@include define-font(
+    "OutfitBold",
+    "#{$basePath}/Outfit-Bold.ttf",
+    normal,
+    normal
+);

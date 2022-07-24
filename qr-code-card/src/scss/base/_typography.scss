@@ -1,0 +1,22 @@
+@use "../abstracts/variables" as *;
+
+$bodyFont:"OutfitRegular";
+$titleFont: "OutfitBold";
+
+body {
+    font-family: $bodyFont;
+    line-height: 1.3;
+}
+h1,p {
+    margin: 0;
+}
+h1.QR-card__title {
+    font-size: 2.2rem;
+    color: $dark-blue;
+    font-family: $titleFont;
+}
+
+p.QR-card__description {
+    font-size: 1.5rem;
+    color: $grayish-blue;
+}

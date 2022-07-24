@@ -1,0 +1,30 @@
+@use "../abstracts/variables" as *;
+
+.QR-card {
+    min-width: 315px;
+    max-width: 320px;
+    box-shadow: 10px 10px 15px rgba(123, 135, 157, 0.125);
+    background-color: $white;
+    border-radius: $b-radius;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .QR-card__inner {
+        padding: $p-sm;
+        img {
+            border-radius: calc($b-radius / 2);
+        }
+        .QR-card__content {
+            text-align: center;
+            padding: $p-md 0;
+        }
+        .QR-card__description ,
+        .QR-card__title{
+            padding:0 $p-sm;
+        }
+        .QR-card__title {
+            margin-bottom: $m-md;
+        }
+    }
+}

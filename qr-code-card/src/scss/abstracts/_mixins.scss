@@ -1,0 +1,13 @@
+@mixin define-font($font-name, $font-path, $font-style, $font-weight) {
+    @font-face {
+        font-family: $font-name;
+        src: url($font-path);
+        font-style: $font-style;
+        font-weight: $font-weight;
+    }
+}
+
+@mixin media($break-point) {
+    @content;
+}
+
