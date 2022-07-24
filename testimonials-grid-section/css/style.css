@@ -1,0 +1,162 @@
+/* =========|| Font Defines ||========= */
+@font-face{
+   font-family: BarlowSemiCondensed-Medium;
+   src: url("../fonts/BarlowSemiCondensed-Medium.ttf") format("truetype");
+}
+@font-face{
+    font-family: BarlowSemiCondensed-SemiBold;
+    src: url("../fonts/BarlowSemiCondensed-SemiBold.ttf") format("truetype");
+}
+/* =========|| Font Defines ||========= */
+
+/* =========|| Normal Defines ||========= */
+*,
+*:before,
+*:after{
+    box-sizing:border-box;
+}
+body{
+    background-color: #ecf2f8;
+    background-color:var(--body);
+    font-size:13px;
+    font-family:BarlowSemiCondensed-Medium,Arial, Helvetica, sans-serif;
+}
+/* =========|| Normal Defines ||========= */
+
+/* =========|| Color Defines ||========= */
+:root{
+    --Moderate-violet:#7541c8;
+    --grayish-blue:#48556a;
+    --blackish-blue:#19212e;
+    --blackish-blue-50:rgba(25, 33, 46, 0.5);
+    --blackish-blue-70:rgba(25, 33, 46, 0.7);
+    --white-100:#ffffff;
+    --body:#ecf2f8;
+    --neutral--light-gray: #cfcfcf;
+    --neutral--grayish-blue:#ecf2f8;
+    --neutral--grayish-blue-50:rgba(236, 242, 248, 0.5);
+    --neutral--grayish-blue-70:rgba(236, 242, 248, 0.7);
+}
+/* =========|| Color Defines ||========= */
+
+/* =========|| Grid ||========= */
+.testimonials_container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-areas: "tes1"
+                         "tes2"
+                         "tes4"
+                         "tes5"
+                         "tes3";
+    gap:25px;
+    color:#fff;
+    padding:2rem;
+    margin:50px 0;
+}
+.testimonials_item:nth-child(1){
+    background:url("../images/bg-pattern-quotation.svg") right 60px top 0px/110px no-repeat var(--Moderate-violet);
+    grid-area: tes1;
+}
+.testimonials_item:nth-child(2){
+    background-color:var(--grayish-blue);
+    grid-area:tes2;
+}
+.testimonials_item:nth-child(3){
+    background-color:var(--white-100);
+    grid-area:tes3;
+}
+.testimonials_item:nth-child(4){
+    background-color:var(--white-100);
+    grid-area:tes4;
+
+}
+.testimonials_item:nth-child(5){
+    background-color:var(--blackish-blue);
+    grid-area:tes5;
+}
+/* =========|| Grid ||========= */
+
+/* =========|| Main ||========= */
+.container{
+    max-width:1200px;
+    margin:0 auto;
+}
+.testimonials_item{
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(56, 56, 56, 0.158);
+    padding:20px 45px 20px 30px;
+}
+.testimonials_intro{
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+}
+.testimonials_intro-avatar{
+    margin-right:18px;
+}
+.testimonials_item:nth-child(1) .testimonials_intro .testimonials_intro-avatar img{
+    border:.15rem solid rgb(156, 96, 247);
+}
+.testimonials_item:nth-child(5) .testimonials_intro .testimonials_intro-avatar img{
+    border:.15rem solid var(--Moderate-violet);
+}
+.testimonials_intro-avatar img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.testimonials_intro-info-title{
+    margin-bottom:3px;
+}
+.testimonials_text-important{
+    font-family:BarlowSemiCondensed-SemiBold,Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-bottom:25px;
+    line-height:1.2;
+}
+.testimonials_text-quote{
+    line-height:1.5;
+}
+/* =========|| Main ||========= */
+
+/* =========|| Media Query ||========= */
+@media only screen and (min-width:576px){
+    .testimonials_container{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas:"tes1 tes1 tes4"
+        "tes2 tes5 tes5"
+        "tes3 tes3 tes3";
+        
+    }
+}
+@media only screen and (min-width:992px){
+    .testimonials_container{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-areas:"tes1 tes1 tes2 tes3"
+                            "tes4 tes5 tes5 tes3";
+       
+    }
+}
+/* =========|| Media Query ||========= */
+
+/* =========|| Utility ||========= */
+.txt--grayish-blue{
+    color:var(--neutral--grayish-blue);
+}
+.txt--grayish-blue-50{
+    color:var(--neutral--grayish-blue-50);
+}
+.txt--grayish-blue-70{
+    color:var(--neutral--grayish-blue-70);
+}
+.txt--blackish-blue{
+    color:var(--blackish-blue);
+}
+.txt--blackish-blue-50{
+    color:var(--blackish-blue-50);
+}
+.txt--blackish-blue-70{
+    color:var(--blackish-blue-70);
+}
+/* =========|| Utility ||========= */
+
