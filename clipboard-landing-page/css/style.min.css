@@ -1,0 +1,1 @@
+@tailwind base;@tailwind components;@tailwind utilities;@layer base{src:url("../fonts/BaiJamjuree-SemiBold.ttf") format('truetype')}@font-face{font-family:baijamjuree-regular;src:url("../fonts/BaiJamjuree-Regular.ttf") format('truetype')}.title{@apply leading-5 text-dark-grayish-blue font-BaiJamjuree-SemiBold;}

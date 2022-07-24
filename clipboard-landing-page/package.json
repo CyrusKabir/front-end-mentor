@@ -1,0 +1,17 @@
+{
+  "name": "project_with_tailwindcss",
+  "version": "1.0.0",
+  "description": "![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build":"tailwindcss build ./css/style.css -o ./css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
