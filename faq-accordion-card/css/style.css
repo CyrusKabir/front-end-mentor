@@ -1,0 +1,202 @@
+/* =========|| Font Defines ||========= */
+@font-face{
+    font-family:KumbhSans;
+    src:url("../fonts/KumbhSans-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family:KumbhSans-Bold;
+    src:url("../fonts/KumbhSans-Bold.ttf") format("truetype");
+}
+/* =========|| Font Defines ||========= */
+
+/* =========|| Normal Defines ||========= */
+*,
+*:before,
+*:after{
+    box-sizing:border-box;
+}
+body{
+    font-family:KumbhSans,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background:linear-gradient(180deg,#af67e9,#6565e7) no-repeat;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* =========|| Normal Defines ||========= */
+
+/* =========|| Color Defines ||========= */
+.dark-blue--not-active{
+    color:hsl(237, 12%, 33%);
+}
+.dark-blue--text{
+    color:#787887;
+}
+.card-title--dark-blue{
+    color:#1d1e35;
+}
+/* =========|| Color Defines ||========= */
+
+/* =========|| Main Style ||========= */
+.card{
+    width:100%;
+    max-width:500px;
+}
+.card__inner{
+    background-color:#fefefe;
+    border-radius:15px;
+    box-shadow:0 20px 20px rgba(29, 30, 53, 0.35);
+    width:100%;
+}
+.card__text-content{
+    padding:0px 20px 30px;
+}
+.card__visual-content{
+    position: relative;
+    height:150px;
+    text-align: center;
+}
+.mobile-pattern{
+    transform:translate(-7px,-3px);
+}
+.mobile-woman{
+    transform: translate(-23px, -212px);
+}
+.card__text-content--title{
+    font-size:35px;
+    margin-bottom:40px;
+    text-align: center;
+}
+.question{
+    margin-bottom: 20px;
+    padding-bottom:20px;
+    border-bottom:1px solid #e7e7e9;
+    cursor: pointer;
+    display: flex;
+    flex-direction:column-reverse;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height:1.5;
+}
+.question .intro span{
+    font-size: 13px;
+}
+.question:hover .intro span{
+    color:#f47c57;
+    transition:0.2s all ease;
+}
+.question .intro img{
+    width:12px;
+}
+.answer{
+    line-height:1.5;
+    margin-top: 12px;
+    display: none;
+}
+.answer:target{
+    display: block;
+} 
+.question:hover > p:target + .intro span{
+    color:#1d1e35;
+}
+p:target + .intro span{
+    color:#1d1e35;
+    font-family:KumbhSans-Bold,Arial, Helvetica, sans-serif;
+}
+p:target + .intro img{
+    transform:rotate(180deg);
+}
+/* =========|| Main Style ||========= */
+
+/* =========|| Utility Defines ||========= */
+.ps-absolute{
+    position: absolute;
+}
+.container{
+    width:100%;
+    padding:115px 20px;
+    margin:0 auto;
+}
+.title-bold{
+    font-family:KumbhSans-Bold,Arial, Helvetica, sans-serif;
+}
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width:100%;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
+.col-12{
+    flex:0 0 100%;
+    max-width: 100%;
+}
+@media only screen and (min-width:576px){
+    .container{
+        max-width:540px;
+    }
+}
+@media only screen and (min-width:768px){
+    .container{
+        max-width:720px;
+    }
+}
+@media only screen and (min-width:900px){
+    .card__visual-content{
+        height:100%;
+    }
+    .card{
+        max-width:960px;
+    }
+    .container{
+        max-width:960px;
+    }
+    .row-lg-reverse{
+        flex-direction: row-reverse;
+    }
+    .col-lg-6{
+        flex:0 0 50%;
+        max-width: 50%;
+        height:500px;
+    }
+    .card__text-content{
+        padding:60px 90px 60px 25px;
+    }
+    .card__text-content--title{
+        text-align: left;
+    }
+    .mobile-pattern,
+    .mobile-woman{
+        display: none;
+    }
+    .pattern{
+        width: 100%;
+        height:100%;
+        top: 0;
+        left: 0;
+        background:url("../images/bg-pattern-desktop.svg") -370px -165px/765px 750px no-repeat;    
+    }
+    .woman{
+        width:400px;
+        height: 360px;
+        top: 65px;
+        left: 0;
+        background: url("../images/illustration-woman-online-desktop.svg") -80px 0/cover no-repeat;
+    }
+    .box{
+        width:190px;
+        height:180px;
+        top: 205px;
+        left: -93px;
+        background:url("../images/illustration-box-desktop.svg") center center/cover no-repeat;
+    }
+}
+/* =========|| Utility Defines ||========= */
+
