@@ -1,0 +1,87 @@
+@use "../abstract/mixins"as *;
+@use "../abstract/variables"as *;
+.card {
+    max-width: 410px;
+    background-image: linear-gradient(to bottom, rgb(30, 37, 47) 5%, rgba(29, 36, 44, 0.479));
+    border-radius:28px;
+    perspective: 1000px;
+    transition: .5s all ease;
+
+    &_state--submit {
+        & .card__inner {
+            padding:$p-lg;
+        }
+    }
+
+    &_state--thanks {
+        & .card__inner {
+            padding: $p-xl $p-lg;
+        }
+    }
+    &_state--submit {
+        .card__icon {
+            width: 5rem;
+            height: 5rem;
+            background-color: $dark-blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            margin-bottom: 2.5rem;
+        }
+
+        .card__text {
+            margin:0.5rem 0 $m-md;
+        }
+
+        .card__rating-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: $m-md;
+        }
+
+        .card__rating-submit-btn {
+            &:hover {
+                background-color: $white;
+                color: $primary-color;
+            }
+
+            display: inline-block;
+            padding: 15px 0;
+            min-width:100%;
+            cursor: pointer;
+            background-color:$primary-color;
+            color:$white;
+            border: none;
+            border-radius:40px;
+            font-size:14px;
+            text-transform: uppercase;
+            letter-spacing:2px;
+            transition:.3s all ease;
+        }
+    }
+
+    &_state--thanks {
+        text-align: center;
+        .card__icon {
+            margin-bottom: $m-md;
+        }
+        .card__user-rating {
+            background-color: $dark-blue;
+            color: $primary-color;
+            display: inline-block;
+            border-radius: $medim-radius;
+            padding: 5px 18px 2px;
+            margin-bottom: $m-md;
+
+            & span {
+                padding: 0 3px;
+            }
+        }
+        .card__title {
+            margin-bottom: $m-xs;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@mixin create-font($font-name, $font-path, $font-weight, $font-style) {
+    @font-face {
+        font-family: $font-name;
+        src: url($font-path);
+        font-weight: $font-weight;
+        font-style: $font-style;
+    }
+}

@@ -1,0 +1,17 @@
+@use "./mixins" as *;
+
+$base-font-path: "../../assets/fonts";
+
+@include create-font(
+    OverpassRegular,
+    "#{$base-font-path}/Overpass-Regular.ttf",
+    normal,
+    normal
+);
+
+@include create-font(
+    OverpassBold,
+    "#{$base-font-path}/Overpass-Bold.ttf",
+    normal,
+    normal
+);

@@ -1,0 +1,38 @@
+@use "../abstract/variables"as *;
+
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: $very-dark-blue;
+}
+
+main {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 $p-sm;
+}
+
+input[type=radio] {
+    appearance: none;
+    display:none;
+}
+
+input[type=radio]:checked+label {
+    background-color: $light-gray;
+    color: $white;
+}
