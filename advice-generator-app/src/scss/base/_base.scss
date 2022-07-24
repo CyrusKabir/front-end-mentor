@@ -1,0 +1,26 @@
+@use "../abstracts/_variables.scss" as *;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+body {
+    background-color: $dark-blue;
+    height: 100vh;
+    position: relative;
+}
+
+main {
+    height: 100%;
+}
+
+*::selection {
+    background-color: $neon-green;
+    color: #000;
+}

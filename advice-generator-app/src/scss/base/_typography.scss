@@ -1,0 +1,40 @@
+@use "../abstracts/_variables.scss" as *;
+// Font Stacks
+$sans-serif: "ManropeRegular", Helvetica, verdana, sans-serif;
+$serif: "ManropeExtraBold", Georgia, serif;
+
+// Font Weights
+$light: 300;
+$normal: 400;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+
+// Font Size
+$advice-id-font-size: 12px;
+$advice-font-size-sm: 24px;
+$advice-font-size-lg: 28px;
+
+body {
+    font-family:$sans-serif;
+    font-weight:$normal;
+    line-height:1.4;
+}
+
+.card__advice-title {
+    letter-spacing: 4px;
+    color:$neon-green;
+    text-transform: uppercase;
+    font-size:$advice-id-font-size;
+}
+
+.card__advice-content {
+    font-size: $advice-font-size-sm;
+    font-family: $serif;
+    color:$light-cyan;
+    @media only screen and (min-width: $bp-lg) {
+        &{
+            font-size:$advice-font-size-lg;
+        }
+    }
+}

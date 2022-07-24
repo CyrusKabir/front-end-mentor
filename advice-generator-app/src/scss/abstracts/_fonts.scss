@@ -1,0 +1,6 @@
+@use "./mixins" as *;
+
+$base-font-path: "../../assets/fonts";
+@include font-face(ManropeExtraBold, "#{$base-font-path}/Manrope-ExtraBold.ttf", 400, normal);
+@include font-face(ManropeRegular, "#{$base-font-path}/Manrope-Regular.ttf", 400, normal);
+@include font-face(ManropeSemiBold, "#{$base-font-path}/Manrope-SemiBold.ttf", 400, normal);

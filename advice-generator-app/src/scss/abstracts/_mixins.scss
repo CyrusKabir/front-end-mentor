@@ -1,0 +1,23 @@
+@mixin font-face($font-name, $font-path, $font-weigth, $font-style) {
+    @font-face {
+        font-family: $font-name;
+        src: url($font-path);
+        font-weight: $font-weigth;
+        font-style: $font-style;
+    }
+}
+
+@mixin create-button-theme($bg-color, $icon-path, $shadow-color) {
+    &{
+        background-color: $bg-color;
+    }
+    &:before {
+        background:url($icon-path) center center/cover no-repeat;
+    }
+    &:after {
+        box-shadow: 0 0 20px $shadow-color,
+        0 0 30px $shadow-color,
+        0 0 40px $shadow-color,
+        0 0 50px $shadow-color;
+    }
+}

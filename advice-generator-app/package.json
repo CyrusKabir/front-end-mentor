@@ -1,0 +1,14 @@
+{
+  "name": "advice-generator-app-main",
+  "version": "1.0.0",
+  "description": "we have a lot of advice to give you",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch src/scss/main.scss src/css/style.css"
+  },
+  "author": "CyrusKabir",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}

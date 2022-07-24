@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+  <main>
+    <article class="card">
+      <div class="card__inner">
+        <h1 class="card__advice-title">advice #<span id="adviceId">117</span></h1>
+        <q class="card__advice-content" id="adviceContent">It is easy to sit up and take notice, what's difficult is getting up and taking action.</q>
+        <div class="card__divider">
+          <svg class="card__divider-desktop" width="444" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4e5d73" d="M0 8h196v1H0zM248 8h196v1H248z"/><g transform="translate(212)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
+          <svg class="card__divider-mobile" width="295" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4e5d73" d="M0 8h122v1H0zM173 8h122v1H173z"/><g transform="translate(138)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
+        </div>
+        <div class="card__buttons">
+          <button id="generateAdvice" class="btn btn_theme--generate" title="generate new advice"></button>
+        </div>
+      </div>
+    </article>
+  </main>
+  <script src="./src/js/index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+@use "../abstracts/_variables.scss"  as *;
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -55%);
+    background-color:$dark-grayish;
+    max-width: 540px;
+    min-width: 350px;
+    max-height: 380px;
+    border-radius:15px;
+    .card__inner {
+        text-align: center;
+        padding:$p-md $p-sm $p-lg;
+        @media only screen and (min-width: $bp-md) {
+            &{
+                padding:$p-lg $p-md $p-xl;
+            }
+        }
+        .card__advice-title{
+            margin:0 0 $m-sm;
+        }
+        .card__advice-content {
+            display: inline-block;
+            margin: 0 0 $m-lg;
+        }
+        .card__divider {
+            &-desktop{
+                display: none;
+            }
+            @media only screen and (min-width: $bp-lg) {
+                &-desktop {
+                    display: block;
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+                &-mobile {
+                    display: none;
+                }
+            }
+        }
+        .card__buttons {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%,50%);
+        }
+    }
+}

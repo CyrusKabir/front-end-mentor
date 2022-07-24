@@ -1,0 +1,44 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+.btn {
+    width: 63px;
+    height: 63px;
+    margin: 0 8px;
+    border: none;
+    border-radius:100%;
+    cursor: pointer;
+    position: relative;
+    &:before { // button icon
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 24px;
+        height: 24px;
+    }
+    &:after { // button shadow 
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        border-radius: 100%;
+        transition: .3s opacity ease;
+    }
+    @media (hover: hover) {
+        &:hover:after,
+        &:focus-visible:after {
+            opacity: 1;
+        }
+    }
+    &:active:after {
+        opacity: 1;
+    }
+    &_theme--generate {
+        @include create-button-theme($neon-green, "../../assets/images/icon-dice.svg", rgba(82, 255, 168, 0.28))
+    }
+}
