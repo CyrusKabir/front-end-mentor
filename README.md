@@ -108,7 +108,7 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
   &nbsp
     <a href="https://docs.github.com/en/get-started" target="_blank" rel="noreferrer">
  <img
-      src="./icons8-github.svg"
+      src="./images/icons8-github.svg"
       alt="github"
       width="50"
       height="50"
