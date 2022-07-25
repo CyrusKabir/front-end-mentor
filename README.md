@@ -49,7 +49,7 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
    <a href="https://www.w3.org/TR/css/" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-      alt="html5"
+      alt="css3"
       width="50"
       height="50"
     />
@@ -59,7 +59,7 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-      alt="html5"
+      alt="javascript"
       width="50"
       height="50"
     />
@@ -69,7 +69,7 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
    <a href="https://sass-lang.com/documentation/" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
-      alt="html5"
+      alt="sass"
       width="50"
       height="50"
     />
@@ -79,7 +79,7 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
   <a href="https://docs.npmjs.com/" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg"
-      alt="html5"
+      alt="tailwind css"
       width="50"
       height="50"
     />
@@ -89,7 +89,7 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
   <a href="https://docs.npmjs.com/" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg"
-      alt="html5"
+      alt="npm"
       width="50"
       height="50"
     />
@@ -99,7 +99,7 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
     <a href="https://git-scm.com/doc" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg"
-      alt="html5"
+      alt="git"
       width="50"
       height="50"
     />
@@ -108,8 +108,8 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
   &nbsp
     <a href="https://docs.github.com/en/get-started" target="_blank" rel="noreferrer">
  <img
-      src="./images/github-logo.svg"
-      alt="html5"
+      src="./icons8-github.svg"
+      alt="github"
       width="50"
       height="50"
     />    </a>
@@ -119,3 +119,4 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
 
 
 </div>
+
