@@ -21,8 +21,8 @@
 
 ### Links
 
-- Solution URL: [solution here](https://www.frontendmentor.io/solutions/profilecardcomponentmain-easy-to-read-version-en7mB8bcr)
-- Live Site URL: [live site here](https://cyruskabir.github.io/profile-card-component-main-easy-to-read-version-/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/profilecardcomponentmain-easy-to-read-version-en7mB8bcr)
+- Live Site URL: [Live](https://cyruskabir.github.io/front-end-mentor/profile-card)
 
 ## My process
 
