@@ -4,7 +4,106 @@ This repository contains [Frontend Mentor](https://www.frontendmentor.io/challen
 
 GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cyruskabir.github.io/front-end-mentor/)
 
-## Challenges
+<div style="display:flex;flex-direction:row-reverse;justify-content:space-between">
+<div>
+
+## Languages and Tools 
+ <br>
+ <a href="https://www.frontendmentor.io/" target="_blank" rel="noreferrer">
+    <img
+      src="./images/front-end-mentor-logo.svg"
+      alt="front end mentor"
+      width="350" 
+      height="50"
+    />
+  </a>
+  <br>
+  <br>
+  <a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noreferrer">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+      alt="html5"
+      width="50"
+      height="50"
+    />
+  </a>  
+  &nbsp
+  &nbsp
+   <a href="https://www.w3.org/TR/css/" target="_blank" rel="noreferrer">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+      alt="html5"
+      width="50"
+      height="50"
+    />
+  </a>
+  &nbsp
+  &nbsp
+   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+      alt="html5"
+      width="50"
+      height="50"
+    />
+  </a>
+   &nbsp
+  &nbsp
+   <a href="https://sass-lang.com/documentation/" target="_blank" rel="noreferrer">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+      alt="html5"
+      width="50"
+      height="50"
+    />
+  </a>
+  &nbsp
+  &nbsp
+  <a href="https://docs.npmjs.com/" target="_blank" rel="noreferrer">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg"
+      alt="html5"
+      width="50"
+      height="50"
+    />
+  </a>
+  <br>
+  <br>
+  <a href="https://docs.npmjs.com/" target="_blank" rel="noreferrer">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg"
+      alt="html5"
+      width="50"
+      height="50"
+    />
+  </a>
+  &nbsp
+  &nbsp
+    <a href="https://git-scm.com/doc" target="_blank" rel="noreferrer">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg"
+      alt="html5"
+      width="50"
+      height="50"
+    />
+  </a>
+  &nbsp
+  &nbsp
+    <a href="https://docs.github.com/en/get-started" target="_blank" rel="noreferrer">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
+      alt="html5"
+      width="50"
+      height="50"
+    />
+  </a>
+  &nbsp
+  &nbsp
+</div>
+
+<div>
+
+## Challenges 
 
 | No. | Project                                                                             | Repo |
 | --- | ------------------------------------------------------------------------------------------------- | ---- |
@@ -17,3 +116,7 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
 | 7   | [Advice generator app](https://cyruskabir.github.io/front-end-mentor/advice-generator-app)| [Github](https://github.com/CyrusKabir/front-end-mentor/tree/main/advice-generator-app) |
 | 8   | [QR code card](https://cyruskabir.github.io/front-end-mentor/qr-code-card)| [Github](https://github.com/CyrusKabir/front-end-mentor/tree/main/qr-code-card) |
 | 9   | [Interactive rating component](https://cyruskabir.github.io/front-end-mentor/interactive-rating-card)| [Github](https://github.com/CyrusKabir/front-end-mentor/tree/main/interactive-rating-card) |
+
+</div>
+
+</div>
