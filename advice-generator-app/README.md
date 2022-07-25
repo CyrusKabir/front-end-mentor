@@ -26,8 +26,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [link](https://www.frontendmentor.io/solutions/advice-generator-app-sass-andand-fetch-api-OcWLWF8Dy)
-- Live Site URL: [link](https://cyruskabir.github.io/advice-generator-app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/advice-generator-app-sass-andand-fetch-api-OcWLWF8Dy)
+- Live Site URL: [Live](https://cyruskabir.github.io/front-end-mentor/advice-generator-app)
 
 ## My process
 
