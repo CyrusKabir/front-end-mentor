@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:[Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-sass-and-animations-rJEGcBnG9)
-- Live Site URL: [Live](https://cyruskabir.github.io/interactive-rating-card/)
+- Solution URL: [Solution](https://github.com/CyrusKabir/front-end-mentor/tree/main/interactive-rating-card)
+- Live Site URL: [Live](https://cyruskabir.github.io/front-end-mentor/interactive-rating-card)
 
 ## My process
 
