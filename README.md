@@ -4,7 +4,7 @@ This repository contains [Frontend Mentor](https://www.frontendmentor.io/challen
 
 GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cyruskabir.github.io/front-end-mentor/)
 
-## Projects
+## Challenges
 
 | No. | Project                                                                             | Repo |
 | --- | ------------------------------------------------------------------------------------------------- | ---- |
