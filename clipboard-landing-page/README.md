@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/clipboardlandingpagewithtailwindcss-Q13Ru23mS)
-- Live Site URL: (https://cyruskabir.github.io/Clipboard_landing_page_with_tailwindcss/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/clipboardlandingpagewithtailwindcss-Q13Ru23mS)
+- Live Site URL: [Live](https://cyruskabir.github.io/front-end-mentor/clipboard-landing-page)
 
 ## My process
 
