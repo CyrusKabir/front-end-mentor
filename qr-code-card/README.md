@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-code-card-html-andand-scss-55KQHfvfc)
-- Live Site URL: [Live site](https://cyruskabir.github.io/front-end-mentor/accordioncard/qr-code-card)
+- Live Site URL: [Live site](https://cyruskabir.github.io/front-end-mentor/qr-code-card)
 
 ## My process
 
