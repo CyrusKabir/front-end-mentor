@@ -19,8 +19,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/faq-accordion-card-pure-css-c1SgS4ykp
-- Live Site URL: https://cyruskabir.github.io/FAQ-Accordion-Card-Pure-CSS/
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-pure-css-c1SgS4ykp)
+- Live Site URL: [Live](https://cyruskabir.github.io/FAQ-Accordion-Card-Pure-CSS/)
 
 ## My process
 
