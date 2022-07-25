@@ -16,4 +16,4 @@ GitHub landing page: [https://cyruskabir.github.io/front-end-mentor/](https://cy
 | 6   | [Testimonials grid section](https://cyruskabir.github.io/front-end-mentor/testimonials-grid-section)| [Link to GitHub repo](https://github.com/CyrusKabir/front-end-mentor/tree/main/testimonials-grid-section) |
 | 7   | [Advice generator app](https://cyruskabir.github.io/front-end-mentor/advice-generator-app)| [Link to GitHub repo](https://github.com/CyrusKabir/front-end-mentor/tree/main/advice-generator-app) |
 | 8   | [QR code card](https://cyruskabir.github.io/front-end-mentor/accordioncard/qr-code-card)| [Link to GitHub repo](https://github.com/CyrusKabir/front-end-mentor/tree/main/qr-code-card) |
-| 9   | [Interactive rating component](https://cyruskabir.github.io/front-end-mentor/interactive-rating-component)| [Link to GitHub repo](https://github.com/CyrusKabir/front-end-mentor/tree/main/interactive-rating-component) |
+| 9   | [Interactive rating component](https://cyruskabir.github.io/front-end-mentor/interactive-rating-card)| [Link to GitHub repo](https://github.com/CyrusKabir/front-end-mentor/tree/main/interactive-rating-card) |
